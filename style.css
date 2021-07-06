@@ -16,7 +16,8 @@ h2{
 }
 p {
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
+    color: #18191F;
 }
 .highlight-color{
     color: #1E42FF;
@@ -47,4 +48,10 @@ img{
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 0;
+}
+.on-third-width{
+    width: 33%;
+    padding-left: 9%;
+    padding-right: 8%;
+    margin: auto;
 }
