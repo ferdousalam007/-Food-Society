@@ -3,14 +3,19 @@ body{
     margin: 0;
 }
 section{
-    padding: 100px 0;
+    padding: 70px 0;
 }
 h1{
     font-size: 55px;
     font-weight: 700;
 }
-p{
-    font-size: 20px;
+h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #707070;
+}
+p {
+    font-size: 18px;
     font-weight: 500;
 }
 .highlight-color{
@@ -19,9 +24,10 @@ p{
 .display-items{
     display: flex;
 }
-.half-width{
+.half-width {
     width: 40%;
     padding-left: 9%;
+    padding-right: 8%;
     margin: auto;
 }
 img{
@@ -35,4 +41,10 @@ img{
     color: white;
     display: inline-block;
     margin-top: 25px;
+}
+.about-section{
+    background-image: url(images/Frame-57.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 0;
 }
