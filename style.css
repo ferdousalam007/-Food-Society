@@ -14,6 +14,16 @@ h2{
     font-weight: 700;
     color: #707070;
 }
+h3 {
+    font-size: 35px;
+    color: #676767;
+    font-weight: 700;
+}
+h5{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+}
 p {
     font-size: 18px;
     font-weight: 400;
@@ -31,8 +41,14 @@ p {
     padding-right: 8%;
     margin: auto;
 }
+.half-width-two{
+    width: 50%;
+}
 img{
     width: 100%;
+}
+.shadow{
+      box-shadow: 5px 5px 30px #000;
 }
 .main-button {
     text-decoration: none;
@@ -43,15 +59,63 @@ img{
     display: inline-block;
     margin-top: 25px;
 }
-.about-section{
+.about-area{
     background-image: url(images/Frame-57.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 0;
 }
+.recipies-area{
+    padding-left: 9%;
+    padding-right: 9%;
+}
+.section-title{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto 50px;
+}
+.recipies-single-box{
+    padding: 15px 15px 30px;
+    border-radius: 20px;
+}
+.recipies-single-box h4{
+    font-size: 28px;
+    color: #18191F;
+}
 .on-third-width{
     width: 33%;
-    padding-left: 9%;
-    padding-right: 8%;
     margin: auto;
+}
+.margin-left-5{
+    margin-left: 5%;
+}
+.margin-left-9{
+    margin-left: 9%;
+}
+.margin-right-9{
+    margin-right: 9%;
+}
+.status-area{
+    padding-left: 9%;
+    padding-right: 9%;
+}
+.status-area-box{
+    border-radius: 20px;
+    padding: 50px 0;
+    box-shadow: 5px 5px 30px #000;
+}
+.status-area-box p{
+    font-size: 16px;
+    color: #18191F;
+}
+.blog-area{
+    background: url(images/Frame\ 57.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.blog-content{
+    
+}
+.blog-text{
+    padding-left: 20px;
 }
