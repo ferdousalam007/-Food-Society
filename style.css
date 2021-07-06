@@ -168,10 +168,34 @@ form .register-btn{
     display: block;
 }
 .information {
-    padding: 30px 15px;
+    padding: 43px 15px;
     background: #fff;
     box-shadow: 1px 15px 39px #948e8e;
     margin-right: 15px;
-    margin-bottom: 41px;
+    margin-bottom: 20px;
     margin-top: 17px;
+    width: 100%;
+    border-bottom: 9px solid;
+    border-image: linear-gradient(45deg, #3ec9ff, #1e45b3) 30;
+    border-image-slice: 1;
+}
+.information h6{
+    font-size: 15px;
+    font-weight: 600;
+    color: #1E42FF;
+}
+.information P{
+    font-size: 15px;
+}
+.information ul {
+    padding-left: 0;
+}
+.information li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+.information li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #333;
 }
